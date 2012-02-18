@@ -1,0 +1,74 @@
+convmv
+------------------------------------------
+
+Filename encoding conversion tool
+
+Convert a single filename, a directory tree or all files
+on a filesystem to a different encoding. It only converts the
+encoding of filenames, not files contents. A special feature of
+convmv is that it also takes care of symlinks: the encoding of the
+symlink's target will be converted if the symlink itself is being
+converted.
+
+It is also possible to convert directories to UTF-8 which are already
+partially UTF-8 encoded.
+
+Before use, install additional perl modules:
+
+    cpan MODULE ...
+
+Runtime requirements:
+  perl
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://freecode.com/projects/convmv
+  https://www.j3e.de/linux/convmv
+  http://packages.debian.org/convmv
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer:
+  Bugs:
+
+License:
+  GPL-2+
+
+Language:
+  Perl
+
+------------------------------------------
+
+Build instructions:
+  unpack convmv-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./convmv*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 1.12-1 -----
+- Initial release 2012-02-18 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later

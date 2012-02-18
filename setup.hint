@@ -1,0 +1,9 @@
+sdesc: "Filename encoding conversion tool"
+ldesc: "Convert a single filename, a directory tree or all files
+on a filesystem to a different encoding. It only converts the
+encoding of filenames, not files contents. A special feature of
+convmv is that it also takes care of symlinks: the encoding of the
+symlink's target will be converted if the symlink itself is being
+converted."
+category: Perl Utils
+requires: perl
