@@ -13,10 +13,6 @@ converted.
 It is also possible to convert directories to UTF-8 which are already
 partially UTF-8 encoded.
 
-Before use, install additional perl modules:
-
-    cpan MODULE ...
-
 Runtime requirements:
   perl
 
