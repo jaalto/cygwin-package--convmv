@@ -1,3 +1,4 @@
+# ARCH=noarch
 sdesc: "Filename encoding conversion tool"
 ldesc: "Convert a single filename, a directory tree or all files
 on a filesystem to a different encoding. It only converts the
